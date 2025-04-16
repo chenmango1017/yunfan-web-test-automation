@@ -72,7 +72,7 @@
 ### 安装步骤
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/yunfan-web-test-automation.git
+git clone https://github.com/chenmango/yunfan-web-test-automation.git
 cd yunfan-web-test-automation
 ```
 
@@ -94,12 +94,14 @@ pytest
 
 ### 运行特定测试模块
 ```bash
-pytest test_case/test_login.py
+pytest -v -m login_test test_case/login/test_login.py
+
 ```
 
 ### 使用标签运行测试
 ```bash
-pytest -m login
+pytest -v -m login_test
+
 ```
 
 ### 并行执行测试
@@ -127,7 +129,7 @@ pytest -n 4 test_case/test_login.py
 使用pytest的mark装饰器对测试用例进行分类，便于组织和执行特定类别的测试：
 
 ```python
-@pytest.mark.login
+@pytest.mark.login_test
 def test_admin_login():
     # 测试管理员登录功能
     pass
@@ -135,7 +137,7 @@ def test_admin_login():
 
 然后可以使用以下命令运行所有标记为login的测试：
 ```bash
-pytest -m login
+pytest -m login_test
 ```
 
 ## 测试报告示例

@@ -81,7 +81,7 @@ yunfan-web-test-automation/
 # login_data.yaml 示例
 admin:
   username: admin
-  password: admin123
+  password: admin
   role: administrator
 
 student:
@@ -105,7 +105,7 @@ student:
 ### 安装步骤
 1. 克隆仓库
 ```bash
-git clone https://github.com/chenmango/yunfan-web-test-automation.git
+git clone https://github.com/chenmango1017/yunfan-web-test-automation.git
 cd yunfan-web-test-automation
 ```
 
@@ -287,4 +287,4 @@ A:
 
 如有任何问题或建议，请通过以下方式联系我们：
 - Email: chenmango@gmail.com
-- GitHub Issues: [提交Issue](https://github.com/chenmango/yunfan-web-test-automation/issues)
+- GitHub Issues: [提交Issue](https://github.com/chenmango1017/yunfan-web-test-automation/issues)

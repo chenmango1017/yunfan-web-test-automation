@@ -1,0 +1,112 @@
+question_banks:
+  - name: AIAI
+    version: v1
+    questions:
+      1:
+        type: 单选题
+        answer: B
+      2:
+        type: 单选题
+        answer: A
+      3:
+        type: 单选题
+        answer: A
+      4:
+        type: 单选题
+        answer: A
+      5:
+        type: 单选题
+        answer: A
+      6:
+        type: 简答题
+        answer: A
+      7:
+        type: 简答题
+        answer: A
+      8:
+        type: 简答题
+        answer: A
+      9:
+        type: 简答题
+        answer: A
+      10:
+        type: 单选题
+        answer: A
+      11:
+        type: 多选题
+        answer:
+          - A
+          - C
+      12:
+        type: 多选题
+        answer:
+          - A
+          - B
+          - D
+          - E
+      13:
+        type: 单选题
+        answer: B
+      14:
+        type: 填空题
+        answer:
+          - C
+      15:
+        type: 单选题
+        answer: D
+
+  - name: AIAI
+    version: v2
+    questions:
+      1:
+        type: 单选题
+        answer: B
+      2:
+        type: 单选题
+        answer: A
+      3:
+        type: 单选题
+        answer: A
+      4:
+        type: 单选题
+        answer: A
+      5:
+        type: 单选题
+        answer: A
+      6:
+        type: 简答题
+        answer: A
+      7:
+        type: 简答题
+        answer: A
+      8:
+        type: 简答题
+        answer: A
+      9:
+        type: 简答题
+        answer: A
+      10:
+        type: 单选题
+        answer: A
+      11:
+        type: 多选题
+        answer:
+          - A
+          - C
+      12:
+        type: 多选题
+        answer:
+          - A
+          - B
+          - D
+          - E
+      13:
+        type: 单选题
+        answer: B
+      14:
+        type: 填空题
+        answer:
+          - C
+      15:
+        type: 单选题
+        answer: D

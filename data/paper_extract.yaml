@@ -1,0 +1,18 @@
+# 该文件用于存储考试创建的测试数据
+add:
+  - exam_name: "考试003"
+    start_date: "2025-04-10"
+    end_date: "2025-04-12"
+    expected_message: "考试创建成功"
+  - exam_name: "数学测试001"
+    start_date: "2025-05-15"
+    end_date: "2025-05-20"
+    expected_message: "考试创建成功"
+delete:
+    - exam_name: "考试003"
+    - exam_name: "数学测试001"
+update:
+  - original_name: "地理考试"
+    new_name: "语文考试"
+    new_start_date: "2025-04-19"
+    new_end_date: "2025-04-22"

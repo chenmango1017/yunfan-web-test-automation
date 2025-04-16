@@ -1,0 +1,21 @@
+
+test_data:
+  - title: "英语题库"
+    category: "职业资格"
+    knowledge_point: "数据库"
+    description: "英语题库简介"
+    generate_demand: "数据库知识"
+    question_type: "单选题"
+    question_count: 5
+    chapter: "新章节"
+    difficulty: "简单"
+
+  - title: "数学题库"
+    category: "职业资格"
+    knowledge_point: "离散数学"
+    description: "数学题库简介"
+    generate_demand: "数学知识"
+    question_type: "多选题"
+    question_count: 3
+    chapter: "新章节"
+    difficulty: "一般"

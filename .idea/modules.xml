@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/study_selenium.iml" filepath="$PROJECT_DIR$/.idea/study_selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yunfan-web-test-automation.iml" filepath="$PROJECT_DIR$/.idea/yunfan-web-test-automation.iml" />
     </modules>
   </component>
 </project>

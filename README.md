@@ -54,6 +54,7 @@ yunfan-web-test-automation/
 ├── conftest.py           # pytest配置文件
 ├── pytest.ini            # pytest配置选项
 ├── requirements.txt      # 项目依赖
+├── run-tests.ps1         # Jenkins执行测试的PowerShell脚本
 └── url_extract.yaml      # URL和其他配置信息
 ```
 
@@ -145,6 +146,19 @@ pytest -n 4  # 使用4个核心并行执行
 pytest --alluredir=./reports
 allure serve ./reports
 ```
+
+### 通过Jenkins执行测试
+项目包含`run-tests.ps1` PowerShell脚本，用于在Jenkins CI环境中执行测试。Jenkins可通过以下命令调用此脚本：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "D:\pycharm\code\exam_selenium\run-tests.ps1"
+```
+
+此脚本负责：
+- 设置测试环境
+- 执行测试用例
+- 生成测试报告
+- 处理测试结果
 
 ## 测试特性
 

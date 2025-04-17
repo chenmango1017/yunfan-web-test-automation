@@ -15,7 +15,7 @@ test_data:
     knowledge_point: "离散数学"
     description: "数学题库简介"
     generate_demand: "数学知识"
-    question_type: "多选题"
+    question_type: "单选题"
     question_count: 3
     chapter: "新章节"
-    difficulty: "一般"
+    difficulty: "简单"
